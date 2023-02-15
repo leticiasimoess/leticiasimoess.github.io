@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import "header.css";
+@import "inicio.css";
+@import "sobre.css";
+@import "projetos.css";
+@import "contatos.css";
+
+
+:root {
+  --bg-1: #151515;
+  --bg-2: #171717;
+  --cor-destaque: #cb10ff;
+  --fonte: 'Roboto', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fonte);
+  background: var(--bg-2);
+}

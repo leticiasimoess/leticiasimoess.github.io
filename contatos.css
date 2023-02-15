@@ -1,0 +1,57 @@
+
+.contatos {
+  background: var(--bg-1);
+}
+
+.contatos-container {
+  max-width: 1000px;
+  padding: 60px 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contatos-texto {
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #cccccc;
+}
+
+.social a {
+  display: inline-block;
+  cursor: pointer;
+  background: #303030;
+  color: #fff;
+  padding: 10px;
+  margin: 10px 15px;
+  font-size: 1.4em;
+  border-radius: 50%;
+}
+
+.social a:hover {
+  background: var(--cor-destaque);
+  color: #fff;
+  transition: .3s;
+}
+
+.contatos-copy {
+  text-align: center;
+  font-size: 1em;
+  color: #8f8f8f;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .contatos-texto {
+    margin-bottom: 30px;
+  }
+
+  .contatos-contato {
+    margin: auto;
+  }
+  .social a {
+    margin: 10px 10px;
+  }
+}

@@ -1,0 +1,55 @@
+
+
+.sobre {
+  background: var(--bg-1);
+  color: #fff;
+  padding: 40px 30px;
+}
+
+.sobre-container {
+  max-width: 1000px;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+}
+
+.sobre-container h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.sobre-texto p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin-bottom: 10px;
+}
+
+.sobre-skills h2 span {
+  color: var(--cor-destaque);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background: #ece7e7;
+  color: var(--bg-1);
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px)  {
+  .sobre-container {
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+  }
+}
